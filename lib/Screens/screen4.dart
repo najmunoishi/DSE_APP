@@ -35,7 +35,7 @@ class Funds extends StatelessWidget {
         ),
         itemCount: people.length,
         itemBuilder: (context, index) {
-          Color Eocolor= index % 2 == 0 ? Colors.red: Colors.amber;
+          Color evenOddColor= index % 2 == 0 ? Colors.red: Colors.amber;
           // List<Color> colors = [
           //   Colors.red,
           //   Colors.blue,
@@ -45,7 +45,7 @@ class Funds extends StatelessWidget {
           // int colorIndex = index % colors.length;
           final person = people[index];
           return Card(
-            color: Eocolor,
+            color: evenOddColor,
             //color: person.color,
             margin: EdgeInsets.all(8),
             child: Padding(

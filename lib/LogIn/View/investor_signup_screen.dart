@@ -22,7 +22,7 @@ class _InvestorSignupScreen extends State<InvestorSignupScreen> {
     HomeScreen(),
     MyOrderScreen(),
     BuyandSell(),
-    Funds(),
+   Funds(),
     Menu(),
   ];
   final List<String> titles = [
